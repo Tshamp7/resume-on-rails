@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
 
     def about
-        "I am a programmer living near the Columbia river in Washougal, WA,
+        render html: "I am a programmer living near the Columbia river in Washougal, WA,
         Just outside of Portland, OR. I decided to make a career change last year 
         from pharmaceutical research to software engineering. My current interests
         are Ruby, Rails, PostgresQL, RDBMS's, and I have recently begun learning React. 
